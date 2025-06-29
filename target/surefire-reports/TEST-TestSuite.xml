@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="174.765" tests="47" errors="0" skipped="17" failures="8">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\ssmit\eclipse-workspace\NinjaV6\target\test-classes;C:\Users\ssmit\eclipse-workspace\NinjaV6\target\classes;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.31.0\selenium-java-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.31.0\selenium-chrome-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.31.0\selenium-chromium-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.31.0\selenium-devtools-v133-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.31.0\selenium-devtools-v134-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.31.0\selenium-devtools-v135-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.31.0\selenium-edge-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.31.0\selenium-firefox-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.31.0\selenium-ie-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\ssmit\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ssmit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ssmit\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ssmit\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\ssmit\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.31.0\selenium-safari-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\ssmit\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ssmit\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ssmit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ssmit\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ssmit\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ssmit\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ssmit\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ssmit\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ssmit\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ssmit\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\ssmit\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ssmit\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ssmit\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ssmit\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\ssmit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\ssmit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\ssmit\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\ssmit\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\ssmit\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\ssmit\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\ssmit\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\ssmit\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\ssmit\AppData\Local\Temp\surefire10770713774377303284\surefirebooter-20250602215501982_3.jar C:\Users\ssmit\AppData\Local\Temp\surefire10770713774377303284 2025-06-02T21-55-01_818-jvmRun1 surefire-20250602215501982_1tmp surefire_0-20250602215501982_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ssmit\eclipse-workspace\NinjaV6\target\test-classes;C:\Users\ssmit\eclipse-workspace\NinjaV6\target\classes;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-java\4.31.0\selenium-java-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-api\4.31.0\selenium-api-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.31.0\selenium-chrome-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.31.0\selenium-chromium-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-json\4.31.0\selenium-json-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.31.0\selenium-manager-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.31.0\selenium-devtools-v133-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.31.0\selenium-devtools-v134-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.31.0\selenium-devtools-v135-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.31.0\selenium-edge-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.31.0\selenium-firefox-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-http\4.31.0\selenium-http-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.31.0\selenium-ie-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.31.0\selenium-remote-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar;C:\Users\ssmit\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\ssmit\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ssmit\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\ssmit\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\ssmit\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\ssmit\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-os\4.31.0\selenium-os-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.31.0\selenium-safari-driver-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\seleniumhq\selenium\selenium-support\4.31.0\selenium-support-4.31.0.jar;C:\Users\ssmit\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\ssmit\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\ssmit\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\ssmit\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ssmit\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ssmit\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ssmit\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ssmit\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ssmit\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ssmit\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ssmit\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\ssmit\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ssmit\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ssmit\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ssmit\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\ssmit\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\ssmit\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\ssmit\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\ssmit\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\ssmit\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\ssmit\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\ssmit\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\ssmit\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\ssmit\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ssmit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ssmit\eclipse-workspace\NinjaV6"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ssmit\AppData\Local\Temp\surefire10770713774377303284\surefirebooter-20250602215501982_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="ssmit"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ssmit\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\ssmit\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\ssmit\eclipse-workspace\NinjaV6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Crucial\Crucial Storage Executive;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.9.9-bin\bin;C:\Users\ssmit\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.061">
+    <system-out><![CDATA[2025-06-03T02:55:03.199555100Z main INFO Starting configuration XmlConfiguration[location=C:\Users\ssmit\eclipse-workspace\NinjaV6\target\test-classes\log4j2.xml, lastModified=2025-05-26T17:03:39.423Z]...
+2025-06-03T02:55:03.201556900Z main INFO Start watching for changes to C:\Users\ssmit\eclipse-workspace\NinjaV6\target\test-classes\log4j2.xml every 0 seconds
+2025-06-03T02:55:03.202555900Z main INFO Configuration XmlConfiguration[location=C:\Users\ssmit\eclipse-workspace\NinjaV6\target\test-classes\log4j2.xml, lastModified=2025-05-26T17:03:39.423Z] started.
+2025-06-03T02:55:03.205556Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@72cc7e6f...
+2025-06-03T02:55:03.206554400Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@72cc7e6f stopped.
+Running test with OS: windows, Browser: edge
+Running test with OS: windows, Browser: firefox
+Running test with OS: windows, Browser: chrome
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J(W): Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J(W): Ignoring binding found at [jar:file:/C:/Users/ssmit/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.24.3/log4j-slf4j-impl-2.24.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J(W): See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+Jun 02, 2025 9:55:03 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.063"/>
+  <testcase name="testLaunchApplication" classname="testCases.TC01_LaunchApplication" time="0.018">
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: chrome
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Test completed. Browser closed.
+Running test with OS: windows, Browser: edge
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToCart[chrome](1)" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="Test failed due to unexpected exception."/>
+    <system-out><![CDATA[App launched successfully: https://cloudberrystore.services/
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+Test completed. Browser closed.
+Running test with OS: windows, Browser: firefox
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToCart[edge](1)" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="Test failed due to unexpected exception."/>
+  </testcase>
+  <testcase name="testAddToCart[chrome](2)" classname="testCases.TC03_AddToCart" time="2.869">
+    <system-out><![CDATA[Clicked HP product
+Setting delivery date to: 2025-06-07
+Delivery date successfully set using JavaScript.
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToCart[edge](2)" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="Test failed due to unexpected exception."/>
+  </testcase>
+  <testcase name="testAddToCart[firefox](1)" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="Test failed due to unexpected exception."/>
+    <system-out><![CDATA[App launched successfully: https://cloudberrystore.services/
+Test completed. Browser closed.
+Running test with OS: windows, Browser: chrome
+[2025-06-02 21:55:23] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToCart[edge](3)" classname="testCases.TC03_AddToCart" time="0.188">
+    <failure message="Test failed due to unexpected exception." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test failed due to unexpected exception.
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+  </testcase>
+  <testcase name="testAddToCart[firefox](2)" classname="testCases.TC03_AddToCart" time="0.0">
+    <skipped message="Test failed due to unexpected exception."/>
+  </testcase>
+  <testcase name="testAddToCart[firefox](3)" classname="testCases.TC03_AddToCart" time="0.424">
+    <failure message="Test failed due to unexpected exception." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Test failed due to unexpected exception.
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC03_AddToCart.testAddToCart(TC03_AddToCart.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[[2025-06-02 21:55:24] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Test failed due to unexpected exception: Expected condition failed: waiting for visibility of [[RemoteWebDriver: MicrosoftEdge on Windows 10 (0703f67130243cd250aad0cc95e7a5b3)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49176}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0703f67130243cd250aad0cc95e7a5b3"/>
+    <system-out><![CDATA[App launched successfully: https://cloudberrystore.services/
+Test completed. Browser closed.
+Running test with OS: windows, Browser: firefox
+Test completed. Browser closed.
+Running test with OS: windows, Browser: edge
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Test failed due to unexpected exception: Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on Windows 10 (ee127241743e12ce9043aac4f42bcf16)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ee127241743e12ce9043aac4f42bcf16"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Test failed due to unexpected exception: Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on Windows 10 (385c9488-6216-45aa-95b2-9c6e8b763c63)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24072, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 385c9488-6216-45aa-95b2-9c6e8b763c63"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Test failed due to unexpected exception: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: chrome=137.0.7151.56)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [ee127241743e12ce9043aac4f42bcf16, findElement {value=//a[normalize-space()=&apos;Login&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ee127241743e12ce9043aac4f42bcf16"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Test failed due to unexpected exception: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=136.0.3240.92)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [0703f67130243cd250aad0cc95e7a5b3, findElement {value=//a[normalize-space()=&apos;Login&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49176}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0703f67130243cd250aad0cc95e7a5b3"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="0.0">
+    <skipped message="Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()=&apos;Login&apos;]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [385c9488-6216-45aa-95b2-9c6e8b763c63, findElement {value=//a[normalize-space()=&apos;Login&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24072, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 385c9488-6216-45aa-95b2-9c6e8b763c63"/>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="29.338">
+    <failure message="Test failed due to unexpected exception: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: MicrosoftEdge=136.0.3240.92)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [0703f67130243cd250aad0cc95e7a5b3, findElement {value=//a[normalize-space()=&apos;Login&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49176}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 0703f67130243cd250aad0cc95e7a5b3" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0703f67130243cd250aad0cc95e7a5b3, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49176}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0703f67130243cd250aad0cc95e7a5b3
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[[2025-06-02 21:56:45] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0703f67130243cd250aad0cc95e7a5b3, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49176}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0703f67130243cd250aad0cc95e7a5b3
+
+[2025-06-02 21:56:45] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ee127241743e12ce9043aac4f42bcf16, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee127241743e12ce9043aac4f42bcf16
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="29.376">
+    <failure message="Test failed due to unexpected exception: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()=&apos;Login&apos;]&quot;}&#10;  (Session info: chrome=137.0.7151.56)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [ee127241743e12ce9043aac4f42bcf16, findElement {value=//a[normalize-space()=&apos;Login&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ee127241743e12ce9043aac4f42bcf16" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ee127241743e12ce9043aac4f42bcf16, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee127241743e12ce9043aac4f42bcf16
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+  </testcase>
+  <testcase name="testAddToWishList" classname="testCases.TC05_AddToWishList" time="30.487">
+    <failure message="Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()=&apos;Login&apos;]&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [385c9488-6216-45aa-95b2-9c6e8b763c63, findElement {value=//a[normalize-space()=&apos;Login&apos;], using=xpath}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24072, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Session ID: 385c9488-6216-45aa-95b2-9c6e8b763c63" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [385c9488-6216-45aa-95b2-9c6e8b763c63, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24072, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 385c9488-6216-45aa-95b2-9c6e8b763c63
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC05_AddToWishList.testAddToWishList(TC05_AddToWishList.java:91)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: chrome
+[2025-06-02 21:56:46] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [385c9488-6216-45aa-95b2-9c6e8b763c63, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24072, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 385c9488-6216-45aa-95b2-9c6e8b763c63
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="5.937">
+    <system-out><![CDATA[Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Test completed. Browser closed.
+Running test with OS: windows, Browser: edge
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Test completed. Browser closed.
+Running test with OS: windows, Browser: firefox
+App launched successfully: https://cloudberrystore.services/
+App launched successfully: https://cloudberrystore.services/
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="0.302">
+    <system-out><![CDATA[App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testAddAffiliate" classname="testCases.TC06_AddAffiliate" time="5.541">
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: edge
+Test completed. Browser closed.
+Running test with OS: windows, Browser: chrome
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login" time="3.009">
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: firefox
+]]></system-out>
+  </testcase>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login" time="1.449"/>
+  <testcase name="testLogin[smitasharma.qa@gmail.com, ss*QA123](1)" classname="testCases.TC02_Login" time="2.191">
+    <system-out><![CDATA[Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testLogin[nona@yahoo.com, QWER!@#$](2)" classname="testCases.TC02_Login" time="1.483"/>
+  <testcase name="testLogin[nona@yahoo.com, QWER!@#$](2)" classname="testCases.TC02_Login" time="0.847"/>
+  <testcase name="testLogin[nona@yahoo.com, QWER!@#$](2)" classname="testCases.TC02_Login" time="0.32"/>
+  <testcase name="testLogin[sid@cloudberry.services, Test123](3)" classname="testCases.TC02_Login" time="0.893"/>
+  <testcase name="testLogin[sid@cloudberry.services, Test123](3)" classname="testCases.TC02_Login" time="0.421"/>
+  <testcase name="testLogin[sid@cloudberry.services, Test123](3)" classname="testCases.TC02_Login" time="1.544"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login" time="1.309"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login" time="0.391"/>
+  <testcase name="testLogin[apushedwoman@gmail.com, password123](4)" classname="testCases.TC02_Login" time="3.905">
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: edge
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+]]></system-out>
+  </testcase>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login" time="0.101"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login" time="1.541"/>
+  <testcase name="testLogin[hichamkhachiai@gmail.com, hicham123](5)" classname="testCases.TC02_Login" time="1.874">
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: firefox
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="Test failed due to: element click intercepted: Element is not clickable at point (1115, -100)&#10;  (Session info: MicrosoftEdge=136.0.3240.92)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [10ad548b74f237a9759d97e1c10faa68, clickElement {id=f.E95CE9E3A2BDDCC0FAA9CF715AAE2FE9.d.FFB8984EF5CB98AF443634BBF649D707.e.90}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49768}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (10ad548b74f237a9759d97e1c10faa68)] -&gt; xpath: //a[@title=&apos;Checkout&apos;]//i[@class=&apos;fa-solid fa-share&apos;]]&#10;Session ID: 10ad548b74f237a9759d97e1c10faa68"/>
+    <system-out><![CDATA[Test completed. Browser closed.
+Running test with OS: windows, Browser: chrome
+Clicked HP product
+Setting delivery date to: 2025-06-07
+Delivery date successfully set using JavaScript.
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+Using WebDriver class: org.openqa.selenium.remote.RemoteWebDriver
+App launched successfully: https://cloudberrystore.services/
+App launched successfully: https://cloudberrystore.services/
+]]></system-out>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="Test failed due to: Element &lt;a href=&quot;https://www.cloudberrystore.services/index.php?route=product/product&amp;language=en-gb&amp;product_id=47&amp;path=18&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [3c02bf24-17f1-426c-a932-6ef0317435de, clickElement {id=1cb23663-f7dd-4211-bf6f-a597eeb7bab0}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10504, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Element: [[RemoteWebDriver: firefox on Windows 10 (3c02bf24-17f1-426c-a932-6ef0317435de)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 3c02bf24-17f1-426c-a932-6ef0317435de"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="Test failed due to: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;https://www.cloudberrystore.services/index.php?route=product/category&amp;language=en-gb&amp;path=18&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [3c02bf24-17f1-426c-a932-6ef0317435de, clickElement {id=65250776-b9e7-48bf-8e9a-85849fa77483}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10504, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Element: [[RemoteWebDriver: firefox on Windows 10 (3c02bf24-17f1-426c-a932-6ef0317435de)] -&gt; xpath: //a[normalize-space()=&apos;Laptops &amp; Notebooks&apos;]]&#10;Session ID: 3c02bf24-17f1-426c-a932-6ef0317435de"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.231">
+    <failure message="Test failed due to: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;https://www.cloudberrystore.services/index.php?route=product/category&amp;language=en-gb&amp;path=18&quot;&gt; could not be scrolled into view&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [3c02bf24-17f1-426c-a932-6ef0317435de, clickElement {id=65250776-b9e7-48bf-8e9a-85849fa77483}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10504, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}&#10;Element: [[RemoteWebDriver: firefox on Windows 10 (3c02bf24-17f1-426c-a932-6ef0317435de)] -&gt; xpath: //a[normalize-space()=&apos;Laptops &amp; Notebooks&apos;]]&#10;Session ID: 3c02bf24-17f1-426c-a932-6ef0317435de" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3c02bf24-17f1-426c-a932-6ef0317435de, clickElement {id=65250776-b9e7-48bf-8e9a-85849fa77483}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10504, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (3c02bf24-17f1-426c-a932-6ef0317435de)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: 3c02bf24-17f1-426c-a932-6ef0317435de
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[[2025-06-02 21:57:34] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3c02bf24-17f1-426c-a932-6ef0317435de, clickElement {id=65250776-b9e7-48bf-8e9a-85849fa77483}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10504, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (3c02bf24-17f1-426c-a932-6ef0317435de)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: 3c02bf24-17f1-426c-a932-6ef0317435de
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="Test failed due to: element click intercepted: Element is not clickable at point (424, 838)&#10;  (Session info: chrome=137.0.7151.56)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [61b39f7a4fdfba9d46a6b656719248d4, clickElement {id=f.A3601D701570CDBA8ECA5BF23D643ED6.d.C7C7394873CC1E130C889143A4888AF4.e.60}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[RemoteWebDriver: chrome on Windows 10 (61b39f7a4fdfba9d46a6b656719248d4)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 61b39f7a4fdfba9d46a6b656719248d4"/>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="Test failed due to: element click intercepted: Element is not clickable at point (424, 863)&#10;  (Session info: chrome=137.0.7151.56)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [61b39f7a4fdfba9d46a6b656719248d4, clickElement {id=f.A3601D701570CDBA8ECA5BF23D643ED6.d.D05D492EC9D57915CC9230C3B96EFEEC.e.80}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[RemoteWebDriver: chrome on Windows 10 (61b39f7a4fdfba9d46a6b656719248d4)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 61b39f7a4fdfba9d46a6b656719248d4"/>
+    <system-out><![CDATA[Test completed. Browser closed.
+Test execution finished: firefoxTest
+]]></system-out>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="2.5">
+    <failure message="Test failed due to: element click intercepted: Element is not clickable at point (424, 813)&#10;  (Session info: chrome=137.0.7151.56)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [61b39f7a4fdfba9d46a6b656719248d4, clickElement {id=f.A3601D701570CDBA8ECA5BF23D643ED6.d.7C552332366DAC8C18E910B8884D9006.e.100}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[RemoteWebDriver: chrome on Windows 10 (61b39f7a4fdfba9d46a6b656719248d4)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]]&#10;Session ID: 61b39f7a4fdfba9d46a6b656719248d4" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed due to: element click intercepted: Element is not clickable at point (424, 813)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [61b39f7a4fdfba9d46a6b656719248d4, clickElement {id=f.A3601D701570CDBA8ECA5BF23D643ED6.d.7C552332366DAC8C18E910B8884D9006.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (61b39f7a4fdfba9d46a6b656719248d4)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 61b39f7a4fdfba9d46a6b656719248d4
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[[2025-06-02 21:57:39] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (424, 813)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [61b39f7a4fdfba9d46a6b656719248d4, clickElement {id=f.A3601D701570CDBA8ECA5BF23D643ED6.d.7C552332366DAC8C18E910B8884D9006.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (61b39f7a4fdfba9d46a6b656719248d4)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 61b39f7a4fdfba9d46a6b656719248d4
+
+]]></system-out>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="0.0">
+    <skipped message="Test failed due to: Expected condition failed: waiting for visibility of [[RemoteWebDriver: MicrosoftEdge on Windows 10 (10ad548b74f237a9759d97e1c10faa68)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49768}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 10ad548b74f237a9759d97e1c10faa68"/>
+    <system-out><![CDATA[Test completed. Browser closed.
+Test execution finished: chromeTest
+]]></system-out>
+  </testcase>
+  <testcase name="testCompletePurchase" classname="testCases.TC04_CompletePurchase" time="11.439">
+    <failure message="Test failed due to: Expected condition failed: waiting for visibility of [[RemoteWebDriver: MicrosoftEdge on Windows 10 (10ad548b74f237a9759d97e1c10faa68)] -&gt; xpath: //a[normalize-space()=&apos;HP LP3065&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49768}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 10ad548b74f237a9759d97e1c10faa68" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Test failed due to: Expected condition failed: waiting for visibility of [[RemoteWebDriver: MicrosoftEdge on Windows 10 (10ad548b74f237a9759d97e1c10faa68)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49768}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ad548b74f237a9759d97e1c10faa68
+	at org.testng.Assert.fail(Assert.java:111)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:86)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[[2025-06-02 21:57:55] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for visibility of [[RemoteWebDriver: MicrosoftEdge on Windows 10 (10ad548b74f237a9759d97e1c10faa68)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49768}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ad548b74f237a9759d97e1c10faa68
+
+]]></system-out>
+  </testcase>
+</testsuite>

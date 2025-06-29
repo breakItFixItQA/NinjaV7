@@ -1,0 +1,578 @@
+[2025-05-26 19:11:40] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:11:51] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:12:00] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception occurred during login. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_smitasharma_qa_gmail_com_20250526071200.png
+[2025-05-26 19:12:06] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception occurred during login. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_nona_yahoo_com_20250526071206.png
+[2025-05-26 19:12:10] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception occurred during login. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_sid_cloudberry_services_20250526071210.png
+[2025-05-26 19:12:13] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:12:14] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception occurred during login. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_apushedwoman_gmail_com_20250526071214.png
+[2025-05-26 19:12:15] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:12:22] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception occurred during login. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_hichamkhachiai_gmail_com_20250526071222.png
+[2025-05-26 19:12:39] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:12:42] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:12:53] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:13:07] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:22:39] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:22:51] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:23:00] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:23:09] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: smitasharma.qa@gmail.com. Exception: element click intercepted: Element is not clickable at point (774, -25)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7a70594f87c86b3d796e74b43fc21df6, clickElement {id=f.D79019E771D7FDCA125A07DE3F290073.d.0657F389A040209BB2DCB66FB3D17952.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (7a70594f87c86b3d796e74b43fc21df6)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: 7a70594f87c86b3d796e74b43fc21df6. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_smitasharma_qa_gmail_com_20250526072309.png
+[2025-05-26 19:23:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: nona@yahoo.com. Exception: element click intercepted: Element is not clickable at point (774, -16)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7a70594f87c86b3d796e74b43fc21df6, clickElement {id=f.D79019E771D7FDCA125A07DE3F290073.d.0657F389A040209BB2DCB66FB3D17952.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (7a70594f87c86b3d796e74b43fc21df6)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: 7a70594f87c86b3d796e74b43fc21df6. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_nona_yahoo_com_20250526072313.png
+[2025-05-26 19:23:18] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: sid@cloudberry.services. Exception: element click intercepted: Element is not clickable at point (860, 571)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7a70594f87c86b3d796e74b43fc21df6, clickElement {id=f.D79019E771D7FDCA125A07DE3F290073.d.49B395F085711E55131226B797CAE45E.e.95}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (7a70594f87c86b3d796e74b43fc21df6)] -> xpath: //button[normalize-space()='Login']]
+Session ID: 7a70594f87c86b3d796e74b43fc21df6. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_sid_cloudberry_services_20250526072318.png
+[2025-05-26 19:23:22] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:23:22] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:23:23] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: apushedwoman@gmail.com. Exception: element click intercepted: Element is not clickable at point (774, -26)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7a70594f87c86b3d796e74b43fc21df6, clickElement {id=f.D79019E771D7FDCA125A07DE3F290073.d.51C463433FACF029295ADC3909F93B20.e.143}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (7a70594f87c86b3d796e74b43fc21df6)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: 7a70594f87c86b3d796e74b43fc21df6. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_apushedwoman_gmail_com_20250526072322.png
+[2025-05-26 19:23:30] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: hichamkhachiai@gmail.com. Exception: element click intercepted: Element is not clickable at point (860, 566)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7a70594f87c86b3d796e74b43fc21df6, clickElement {id=f.D79019E771D7FDCA125A07DE3F290073.d.8FA56F0B98585308B8014E12C9C5492B.e.168}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (7a70594f87c86b3d796e74b43fc21df6)] -> xpath: //button[normalize-space()='Login']]
+Session ID: 7a70594f87c86b3d796e74b43fc21df6. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_hichamkhachiai_gmail_com_20250526072330.png
+[2025-05-26 19:23:57] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:24:02] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:24:09] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:48:26] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:48:31] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:48:44] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:48:54] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: smitasharma.qa@gmail.com. Exception: element click intercepted: Element is not clickable at point (860, 571)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [78cc5f1a1db475e43cbf047e506025f0, clickElement {id=f.23F93CE1BF93211E4D645FB6F692C8E1.d.30306C07CA3B3E518F381EF26A5EAFEF.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (78cc5f1a1db475e43cbf047e506025f0)] -> xpath: //button[normalize-space()='Login']]
+Session ID: 78cc5f1a1db475e43cbf047e506025f0. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_smitasharma_qa_gmail_com_20250526074854.png
+[2025-05-26 19:48:58] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: nona@yahoo.com. Exception: element click intercepted: Element is not clickable at point (774, -18)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [78cc5f1a1db475e43cbf047e506025f0, clickElement {id=f.23F93CE1BF93211E4D645FB6F692C8E1.d.30306C07CA3B3E518F381EF26A5EAFEF.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (78cc5f1a1db475e43cbf047e506025f0)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: 78cc5f1a1db475e43cbf047e506025f0. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_nona_yahoo_com_20250526074858.png
+[2025-05-26 19:49:03] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: sid@cloudberry.services. Exception: element click intercepted: Element is not clickable at point (860, 571)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [78cc5f1a1db475e43cbf047e506025f0, clickElement {id=f.23F93CE1BF93211E4D645FB6F692C8E1.d.82C3E9D4F6B455ED567F6684681D66CD.e.115}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (78cc5f1a1db475e43cbf047e506025f0)] -> xpath: //button[normalize-space()='Login']]
+Session ID: 78cc5f1a1db475e43cbf047e506025f0. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_sid_cloudberry_services_20250526074903.png
+[2025-05-26 19:49:06] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:49:09] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: apushedwoman@gmail.com. Exception: element click intercepted: Element is not clickable at point (860, 571)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [78cc5f1a1db475e43cbf047e506025f0, clickElement {id=f.23F93CE1BF93211E4D645FB6F692C8E1.d.2D8A684E14F78555CD0F8D7D2EE5E6BE.e.177}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (78cc5f1a1db475e43cbf047e506025f0)] -> xpath: //button[normalize-space()='Login']]
+Session ID: 78cc5f1a1db475e43cbf047e506025f0. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_apushedwoman_gmail_com_20250526074908.png
+[2025-05-26 19:49:10] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:49:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: hichamkhachiai@gmail.com. Exception: element click intercepted: Element is not clickable at point (774, -18)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [78cc5f1a1db475e43cbf047e506025f0, clickElement {id=f.23F93CE1BF93211E4D645FB6F692C8E1.d.2D8A684E14F78555CD0F8D7D2EE5E6BE.e.187}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (78cc5f1a1db475e43cbf047e506025f0)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: 78cc5f1a1db475e43cbf047e506025f0. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV5\screenshots\exception_hichamkhachiai_gmail_com_20250526074913.png
+[2025-05-26 19:49:48] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:49:51] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 19:50:01] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:36:21] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:36:23] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:36:38] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:36:46] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:36:56] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: smitasharma.qa@gmail.com. Exception: element click intercepted: Element is not clickable at point (774, -26)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ae294cd49f46f16a786db6b05fcf181f, clickElement {id=f.86DA88673786C744DC291FD3D0B8897E.d.72FD43A2365E2D70A631E01FEE6559E0.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (ae294cd49f46f16a786db6b05fcf181f)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: ae294cd49f46f16a786db6b05fcf181f. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_smitasharma_qa_gmail_com_20250526083656.png
+[2025-05-26 20:37:00] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: nona@yahoo.com. Exception: element click intercepted: Element is not clickable at point (774, -17)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ae294cd49f46f16a786db6b05fcf181f, clickElement {id=f.86DA88673786C744DC291FD3D0B8897E.d.72FD43A2365E2D70A631E01FEE6559E0.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (ae294cd49f46f16a786db6b05fcf181f)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: ae294cd49f46f16a786db6b05fcf181f. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_nona_yahoo_com_20250526083700.png
+[2025-05-26 20:37:02] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:37:02] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:37:04] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: sid@cloudberry.services. Exception: element click intercepted: Element is not clickable at point (774, -8)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ae294cd49f46f16a786db6b05fcf181f, clickElement {id=f.86DA88673786C744DC291FD3D0B8897E.d.72FD43A2365E2D70A631E01FEE6559E0.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (ae294cd49f46f16a786db6b05fcf181f)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: ae294cd49f46f16a786db6b05fcf181f. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_sid_cloudberry_services_20250526083704.png
+[2025-05-26 20:37:18] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: hichamkhachiai@gmail.com. Exception: element click intercepted: Element is not clickable at point (774, -21)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ae294cd49f46f16a786db6b05fcf181f, clickElement {id=f.86DA88673786C744DC291FD3D0B8897E.d.0193C1DD782FE1CFCA6343F6379DE514.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52763}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (ae294cd49f46f16a786db6b05fcf181f)] -> xpath: //i[@class='fa-solid fa-user']]
+Session ID: ae294cd49f46f16a786db6b05fcf181f. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_hichamkhachiai_gmail_com_20250526083717.png
+[2025-05-26 20:37:44] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:37:50] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:37:54] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:56:28] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:57:50] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:57:51] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:57:52] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:58:38] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:58:45] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 20:58:47] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:13:06] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:13:13] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:13:14] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:13:59] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:14:07] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:14:15] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:29:34] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:29:38] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:30:57] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:30:59] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:31:01] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:31:38] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d5af4509-1526-42ed-8349-0459fd1a9b9f, clickElement {id=bdcab4e0-5df1-4e7c-a41b-5d0459a6e3dd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23456, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (d5af4509-1526-42ed-8349-0459fd1a9b9f)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: d5af4509-1526-42ed-8349-0459fd1a9b9f
+[2025-05-26 21:32:04] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (56b6cc3269ee411d596da77e08ef0c2a)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57979}, msedge: {msedgedriverVersion: 136.0.3240.92 (a30c59ee983a..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56b6cc3269ee411d596da77e08ef0c2a
+[2025-05-26 21:32:10] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: chrome on Windows 10 (70779566bcda157f3d9f44dfe8c130d0)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 70779566bcda157f3d9f44dfe8c130d0
+[2025-05-26 21:39:38] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:39:38] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-05-26 21:41:00] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3e37f77591767a47e7c789311e761b6b, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e37f77591767a47e7c789311e761b6b
+[2025-05-26 21:41:01] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6edc1b93b932eaa5aa1190a6738fe703, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58648}, msedge: {msedgedriverVersion: 136.0.3240.92 (a30c59ee983a..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6edc1b93b932eaa5aa1190a6738fe703
+[2025-05-26 21:41:01] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3c22481c-f889-4548-8d3e-1c6a4cef776f, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2788, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 3c22481c-f889-4548-8d3e-1c6a4cef776f
+[2025-05-26 21:41:49] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [48316858-c153-4ba3-996c-47ba225c1419, clickElement {id=c5050a1d-76cc-4652-acac-6c8f7353eba6}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.4, moz:accessibilityChecks: false, moz:buildID: 20250517143237, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3600, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (48316858-c153-4ba3-996c-47ba225c1419)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: 48316858-c153-4ba3-996c-47ba225c1419
+[2025-05-26 21:41:54] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (424, 917)
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9022c340bc4813e5cedc58c3374d0e80, clickElement {id=f.E3E4E45E6A8D266F85C7F01CD3A7DEB7.d.828430056E38C54F50CACA141AE60B59.e.145}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59170}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (9022c340bc4813e5cedc58c3374d0e80)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 9022c340bc4813e5cedc58c3374d0e80
+[2025-05-26 21:42:10] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (ffa94e9cee4a4131f68dd0f09447b5aa)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59051}, msedge: {msedgedriverVersion: 136.0.3240.92 (a30c59ee983a..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffa94e9cee4a4131f68dd0f09447b5aa
+[2025-06-02 19:27:55] Test FAILED - testLaunchApplication: java.lang.AssertionError: Test failed due to unexpected exception
+[2025-06-02 19:27:55] Test FAILED - testLaunchApplication: java.lang.AssertionError: Test failed due to unexpected exception
+[2025-06-02 19:27:55] Test FAILED - testLaunchApplication: java.lang.AssertionError: Test failed due to unexpected exception
+[2025-06-02 19:27:59] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 19:27:59] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 19:27:59] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 19:28:03] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[2025-06-02 19:28:03] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[2025-06-02 19:28:03] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+[2025-06-02 19:28:07] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 19:28:07] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 19:28:07] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: smitasharma.qa@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_smitasharma_qa_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: smitasharma.qa@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_smitasharma_qa_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: nona@yahoo.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_nona_yahoo_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: nona@yahoo.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_nona_yahoo_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: sid@cloudberry.services. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_sid_cloudberry_services_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: apushedwoman@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_apushedwoman_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: hichamkhachiai@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_hichamkhachiai_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: smitasharma.qa@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_smitasharma_qa_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: nona@yahoo.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_nona_yahoo_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: sid@cloudberry.services. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_sid_cloudberry_services_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: sid@cloudberry.services. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_sid_cloudberry_services_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: apushedwoman@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_apushedwoman_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: apushedwoman@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_apushedwoman_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: hichamkhachiai@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_hichamkhachiai_gmail_com_20250602072813.png
+[2025-06-02 19:28:13] Test FAILED - testLogin: java.lang.AssertionError: Unexpected exception during login for email: hichamkhachiai@gmail.com. Exception: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null. Screenshot: C:\Users\ssmit\eclipse-workspace\NinjaV6\screenshots\exception_hichamkhachiai_gmail_com_20250602072813.png
+[2025-06-02 19:28:17] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "this.driver" is null
+[2025-06-02 19:28:17] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "this.driver" is null
+[2025-06-02 19:28:17] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "this.driver" is null
+[2025-06-02 19:58:30] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ed0fb190c558ba793b25e3e9c78d8d0b, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58603}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed0fb190c558ba793b25e3e9c78d8d0b
+[2025-06-02 19:58:30] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [6b5d5f0a1b2b76d8ee3980c90abae232, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58582}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b5d5f0a1b2b76d8ee3980c90abae232
+[2025-06-02 19:58:34] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9115b8db-301f-4716-ae9c-ca634b504fe7, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10660, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 9115b8db-301f-4716-ae9c-ca634b504fe7
+[2025-06-02 19:59:22] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a href="https://www.cloudberrystore.services/index.php?route=product/product&language=en-gb&product_id=47&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b8d1ab07-81db-4608-8e1b-0563a61a5325, clickElement {id=cded655f-6b9b-4371-9d29-e38c073e2ce4}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16804, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (b8d1ab07-81db-4608-8e1b-0563a61a5325)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: b8d1ab07-81db-4608-8e1b-0563a61a5325
+[2025-06-02 19:59:28] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (1119, -662)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [7d573962e734c01c5779e206b56b5b1d, clickElement {id=f.8D80C7DB710ED3CC2DF83AF1EEB4D02F.d.6D73A65ED202951FC9BA2DF20A3C3F6C.e.151}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59241}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (7d573962e734c01c5779e206b56b5b1d)] -> xpath: //a[@title='Checkout']//i[@class='fa-solid fa-share']]
+Session ID: 7d573962e734c01c5779e206b56b5b1d
+[2025-06-02 19:59:33] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (4ec2df7973083777b1954dd41a63123f)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59135}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ec2df7973083777b1954dd41a63123f
+[2025-06-02 20:14:04] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 20:15:22] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [fbc0ae4f22db7245d806fabecb84da9c, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc0ae4f22db7245d806fabecb84da9c
+[2025-06-02 20:15:24] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [624042b2e3a732a0a7310e3df41b2d55, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59653}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 624042b2e3a732a0a7310e3df41b2d55
+[2025-06-02 20:15:27] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d89bb8f3-acbc-4e76-b354-c056fe1e6298, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14768, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d89bb8f3-acbc-4e76-b354-c056fe1e6298
+[2025-06-02 20:15:59] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 20:16:43] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a9821a82-7da5-4581-9e36-0135535ca807, clickElement {id=3080ee32-ef0f-4e05-85c1-0185344f9fb8}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20596, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (a9821a82-7da5-4581-9e36-0135535ca807)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: a9821a82-7da5-4581-9e36-0135535ca807
+[2025-06-02 20:16:56] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (420, 745)
+  (Session info: MicrosoftEdge=136.0.3240.92)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c561fbaebcb87d7bfdc2f30144182d46, clickElement {id=f.BFAE88F34698ED5335FAC40B11224BD2.d.BBB4313D5711BFBD401D55B0F7982BE5.e.113}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60837}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (c561fbaebcb87d7bfdc2f30144182d46)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: c561fbaebcb87d7bfdc2f30144182d46
+[2025-06-02 20:17:08] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (424, 917)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [44b9933b727b82447fa1a221a700d7aa, clickElement {id=f.884379569970EC4A0DB4E5CB9F92AF96.d.FFEDF28F72622502DD170CC273198CD1.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60866}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (44b9933b727b82447fa1a221a700d7aa)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 44b9933b727b82447fa1a221a700d7aa
+[2025-06-02 20:17:21] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d0dfc431f5c024ec3637e2006a505617, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60515}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d0dfc431f5c024ec3637e2006a505617
+[2025-06-02 20:17:40] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a3735004d097fde13d6a3824657101df, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60676}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3735004d097fde13d6a3824657101df
+[2025-06-02 20:17:50] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d99eb7c1-356a-4beb-ac2f-5ab3b10499e6, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16292, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d99eb7c1-356a-4beb-ac2f-5ab3b10499e6
+[2025-06-02 20:18:09] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (9cff9040bdeef52d2c1ad9ef4cd7f378)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60969}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9cff9040bdeef52d2c1ad9ef4cd7f378
+[2025-06-02 20:18:25] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (424, 837)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c1671bc996f5bafc1056319bca7a550d, clickElement {id=f.3E2F803154C41F46EF7880A59D0A3A90.d.32C44B09262E61AAEE8AF96967543455.e.127}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61215}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (c1671bc996f5bafc1056319bca7a550d)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: c1671bc996f5bafc1056319bca7a550d
+[2025-06-02 20:18:29] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [4ddcbbc5-2025-44dc-8135-6ea02f0792c7, clickElement {id=a8431e9b-7b7c-4584-bec9-31a4399ba92e}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25996, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (4ddcbbc5-2025-44dc-8135-6ea02f0792c7)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: 4ddcbbc5-2025-44dc-8135-6ea02f0792c7
+[2025-06-02 20:42:17] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 20:43:38] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2388a5fad6128562d31621a59860137c, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2388a5fad6128562d31621a59860137c
+[2025-06-02 20:43:39] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [31564ebd49ecb1fb2f683cbae38751fc, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61818}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31564ebd49ecb1fb2f683cbae38751fc
+[2025-06-02 20:43:39] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [1e2d5591-6225-4700-a8f7-426a86820960, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7060, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1e2d5591-6225-4700-a8f7-426a86820960
+[2025-06-02 20:44:31] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [d4b1eda6-c8cd-4d68-9bec-aee988770cfd, clickElement {id=4dfa7a16-894e-4e5a-b2a0-cba595ae6efe}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7848, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (d4b1eda6-c8cd-4d68-9bec-aee988770cfd)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: d4b1eda6-c8cd-4d68-9bec-aee988770cfd
+[2025-06-02 20:44:45] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (ca2939957d90e452295a246d4aad8f85)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62450}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca2939957d90e452295a246d4aad8f85
+[2025-06-02 20:44:47] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for element to be clickable: [[RemoteWebDriver: chrome on Windows 10 (b1e7bea49341757bd7616d2c5b37a106)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62294}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1e7bea49341757bd7616d2c5b37a106
+[2025-06-02 21:04:45] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Login'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12ca0e1423c0a48323f96f0d75bb7994
+[2025-06-02 21:04:45] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Login'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63239}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5c1e1fbb528bb982769354a6d0bce62
+[2025-06-02 21:04:49] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Login'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25648, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f7b11ae7-a40a-499c-8a7a-f3c427d76093
+[2025-06-02 21:05:27] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0421b08e-e73a-4aa0-9d00-e5099e2174b8, clickElement {id=fe95c154-013c-42e9-ae6f-5172f7b7ef38}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5848, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (0421b08e-e73a-4aa0-9d00-e5099e2174b8)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: 0421b08e-e73a-4aa0-9d00-e5099e2174b8
+[2025-06-02 21:05:28] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (1128, 571)
+  (Session info: MicrosoftEdge=136.0.3240.92)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [eebe612c24478456927da9ffc31bd766, clickElement {id=f.DE34506B6B77C59A3E60295AB2F8F69E.d.60D09DBF361CA0616B6630F316DFE5FB.e.129}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63627}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: MicrosoftEdge on Windows 10 (eebe612c24478456927da9ffc31bd766)] -> xpath: //button[@id='button-cart']]
+Session ID: eebe612c24478456927da9ffc31bd766
+[2025-06-02 21:05:52] Test FAILED - testAddAffiliate: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 21:06:17] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (424, 917)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [69446c380723a5660b1093911d4f781f, clickElement {id=f.97C25B5900D21CDC7F85E328867279F9.d.D1A3C3127CF39936789D5B8C9CFC987D.e.102}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (69446c380723a5660b1093911d4f781f)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 69446c380723a5660b1093911d4f781f
+[2025-06-02 21:55:23] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 21:55:24] Test FAILED - testAddToCart: java.lang.AssertionError: Test failed due to unexpected exception.
+[2025-06-02 21:56:45] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=136.0.3240.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [0703f67130243cd250aad0cc95e7a5b3, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49176}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0703f67130243cd250aad0cc95e7a5b3
+[2025-06-02 21:56:45] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=137.0.7151.56)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ee127241743e12ce9043aac4f42bcf16, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee127241743e12ce9043aac4f42bcf16
+[2025-06-02 21:56:46] Test FAILED - testAddToWishList: java.lang.AssertionError: Test failed due to unexpected exception: Unable to locate element: //a[normalize-space()='Login']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [385c9488-6216-45aa-95b2-9c6e8b763c63, findElement {value=//a[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24072, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 385c9488-6216-45aa-95b2-9c6e8b763c63
+[2025-06-02 21:57:34] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Element <a class="nav-link dropdown-toggle" href="https://www.cloudberrystore.services/index.php?route=product/category&language=en-gb&path=18"> could not be scrolled into view
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3c02bf24-17f1-426c-a932-6ef0317435de, clickElement {id=65250776-b9e7-48bf-8e9a-85849fa77483}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 139.0.1, moz:accessibilityChecks: false, moz:buildID: 20250529122813, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi..., prefs: {remote.active-protocols: 3}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10504, moz:profile: C:\Users\ssmit\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[RemoteWebDriver: firefox on Windows 10 (3c02bf24-17f1-426c-a932-6ef0317435de)] -> xpath: //a[normalize-space()='Laptops & Notebooks']]
+Session ID: 3c02bf24-17f1-426c-a932-6ef0317435de
+[2025-06-02 21:57:39] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: element click intercepted: Element is not clickable at point (424, 813)
+  (Session info: chrome=137.0.7151.56)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [61b39f7a4fdfba9d46a6b656719248d4, clickElement {id=f.A3601D701570CDBA8ECA5BF23D643ED6.d.7C552332366DAC8C18E910B8884D9006.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.56, chrome: {chromedriverVersion: 137.0.7151.68 (2989ffee9373..., userDataDir: C:\Users\ssmit\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49979}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 137.0.7151.56, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 10 (61b39f7a4fdfba9d46a6b656719248d4)] -> xpath: //a[normalize-space()='HP LP3065']]
+Session ID: 61b39f7a4fdfba9d46a6b656719248d4
+[2025-06-02 21:57:55] Test FAILED - testCompletePurchase: java.lang.AssertionError: Test failed due to: Expected condition failed: waiting for visibility of [[RemoteWebDriver: MicrosoftEdge on Windows 10 (10ad548b74f237a9759d97e1c10faa68)] -> xpath: //a[normalize-space()='HP LP3065']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49768}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\ssmit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 10, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.1.191:4444/ses..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10ad548b74f237a9759d97e1c10faa68
